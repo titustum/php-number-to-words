@@ -15,15 +15,15 @@ composer require your-username/number-to-words
 
 To use the library, simply create a new `NumberToWords` object and pass the number you want to convert to the constructor. For example:
 
-php
+```php
 $numberToWords = new NumberToWords(12345);
-
+```
 
 The `NumberToWords` object will then have a `getWords()` method that you can use to get the number in words. For example:
 
-php
+```php
 $words = $numberToWords->getWords();
-
+```
 
 The `getWords()` method will return a string with the number in words. In this case, the string will be "one thousand two hundred thirty-four".
 
