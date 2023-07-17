@@ -7,9 +7,9 @@ This library converts a number into words. It is a simple class library that can
 
 To install the library, simply run the following command:
 
-
+```
 composer require your-username/number-to-words
-
+```
 
 ## Usage
 
@@ -37,6 +37,7 @@ The `NumberToWords` class has a few configuration options that you can set. Thes
 To set the configuration options, simply pass them to the constructor of the `NumberToWords` object. For example:
 
 php
+```
 $numberToWords = new NumberToWords(12345, "en_GB", false);
 ```
 
@@ -63,7 +64,7 @@ echo $words;
 This code will print the following output:
 
 ```
-one thousand two hundred thirty-four
+one thousand two hundred thirty four
 ```
 
 ## Documentation
